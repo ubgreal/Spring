@@ -2,6 +2,7 @@ package com.example.sesiones._5_6.controller;
 
 import com.example.sesiones._5_6.entities.Laptop;
 import com.example.sesiones._5_6.repository.LaptopRepository;
+import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpHeaders;
@@ -28,9 +29,6 @@ public class LaptopController {
 
     // CRUD about entity laptop.
 
-
-
-
     /**
      * FIND all laptops that are present in dataBase (Laptops ArrayList)
      * http://localhost:8081/api/laptops
@@ -55,18 +53,19 @@ public class LaptopController {
      * @return
      */
     @GetMapping("/api/laptops/{id}")
+    @ApiOperation("Buscar un ordenador por clave primaria id Long")
     public ResponseEntity<Laptop> findOneById(@PathVariable Long id) {
 
         Optional<Laptop> laptopOpt = laptopRepository.findById(id);
 
-        // Opcion 1
+        // Opción 1
 
         if (laptopOpt.isPresent())
             return ResponseEntity.ok(laptopOpt.get());
         else
             return ResponseEntity.notFound().build();
 
-        // Opcion 2
+        // Opción 2
         // return laptopOpt.orElse(null);
         // return laptopOpt.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
     }
