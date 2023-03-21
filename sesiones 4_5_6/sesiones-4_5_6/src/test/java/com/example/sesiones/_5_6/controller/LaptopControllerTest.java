@@ -2,6 +2,7 @@ package com.example.sesiones._5_6.controller;
 
 import com.example.sesiones._5_6.entities.Laptop;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,7 +11,7 @@ import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.*;
 
-import java.awt.print.Book;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -33,13 +34,23 @@ class LaptopControllerTest {
         testRestTemplate = new TestRestTemplate(restTemplateBuilder);
     }
 
+    @DisplayName("Test Hello world by Spring REST controller")
+    @Test
+    void hello(){
+        ResponseEntity<String> response =
+                testRestTemplate.getForEntity("/hello", String.class);
+
+        assertEquals(HttpStatus.OK, response.getStatusCode());
+        assertEquals(200,response.getStatusCodeValue());
+        assertEquals("Hello World", response.getBody());
+    }
     @Test
     void findAll() {
         ResponseEntity<Laptop[]> response =
                 testRestTemplate.getForEntity("/api/laptops", Laptop[].class );
 
         assertEquals(HttpStatus.OK, response.getStatusCode());
-        assertEquals(200, response.getStatusCode());
+        assertEquals(200,response.getStatusCodeValue());
 
         List<Laptop> laptop = Arrays.asList(response.getBody());
         System.out.println(laptop.size());

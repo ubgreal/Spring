@@ -54,7 +54,7 @@ public class LaptopController {
      */
     @GetMapping("/api/laptops/{id}")
     @ApiOperation("Buscar un ordenador por clave primaria id Long")
-    public ResponseEntity<Laptop> findOneById(@PathVariable Long id) {
+    public ResponseEntity<Laptop> findOneById(@ApiParam("Clave primaria tipo Long")@PathVariable Long id) {
 
         Optional<Laptop> laptopOpt = laptopRepository.findById(id);
 
@@ -91,7 +91,7 @@ public class LaptopController {
             return ResponseEntity.badRequest().build();
         }
         Laptop result = laptopRepository.save(laptop);
-        return ResponseEntity.ok(result);
+        return ResponseEntity.ok(result);  // Book returned has a primary key.
     }
 
 
