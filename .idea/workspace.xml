@@ -4,34 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37de7008-0115-49ed-b01b-c986a156c56f" name="Changes" comment="&quot;Añadimos modificaciones CRUD&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_83.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_bean_validators_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_boot_starter_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_data_rest_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_oas_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webflux_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webmvc_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_3_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/src/main/java/com/example/sesiones/_5_6/Config/SwaggerConfig.java" afterDir="false" />
+    <list default="true" id="37de7008-0115-49ed-b01b-c986a156c56f" name="Changes" comment="&quot;Añadimos modificaciones Swagger&quot;">
+      <change afterPath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/src/main/java/com/example/sesiones/_5_6/service/LaptopPriceCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/src/test/java/com/example/sesiones/_5_6/controller/LaptopControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/src/test/java/com/example/sesiones/_5_6/service/LaptopPriceCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sesiones 4_5_6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/sesiones 4_5_6/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/src/main/java/com/example/sesiones/_5_6/controller/LaptopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/src/main/java/com/example/sesiones/_5_6/controller/LaptopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/src/main/java/com/example/sesiones/_5_6/Config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/src/main/java/com/example/sesiones/_5_6/Config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/src/main/java/com/example/sesiones/_5_6/Sesiones456Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/src/main/java/com/example/sesiones/_5_6/Sesiones456Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/src/main/java/com/example/sesiones/_5_6/entities/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/src/main/java/com/example/sesiones/_5_6/entities/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sesiones 4_5_6/sesiones-4_5_6/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -66,18 +48,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/unaib/IdeaProjects/Spring"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/unaib/IdeaProjects/Spring&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\unaib\IdeaProjects\Spring\sesiones 4_5_6\sesiones-4_5_6\target" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.sesiones._5_6.controller" />
+      <recent name="com.example.sesiones._5_6.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Sesiones456Application">
+    <configuration name="Sesiones456Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.sesiones._5_6.Sesiones456Application" />
+      <module name="sesiones-4_5_6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.sesiones._5_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LaptopControllerTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sesiones-4_5_6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.sesiones._5_6.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.sesiones._5_6.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.sesiones._5_6.controller.LaptopControllerTest" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LaptopPriceCalculatorTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="sesiones-4_5_6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.sesiones._5_6.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.sesiones._5_6.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.sesiones._5_6.service.LaptopPriceCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Sesiones456Application" />
+        <item itemvalue="JUnit.LaptopControllerTest.create" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678972021925</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;Añadimos modificaciones CRUD&quot;">
+      <created>1679327962987</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679327962987</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,5 +170,10 @@
     <MESSAGE value="&quot;Añadimos modificaciones&quot;" />
     <MESSAGE value="&quot;Añadimos modificaciones CRUD&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="&quot;Añadimos modificaciones CRUD&quot;" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Spring$LaptopPriceCalculatorTest.ic" NAME="LaptopPriceCalculatorTest Coverage Results" MODIFIED="1679331356021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.sesiones._5_6.service.*</FILTER>
+    </SUITE>
   </component>
 </project>

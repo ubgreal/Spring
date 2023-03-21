@@ -18,9 +18,9 @@ public class Sesiones456Application {
 		// CRUD
 
 		// Crearte Laptop
-		Laptop laptop1 = new Laptop(null,"DELL","SKL5625", LocalDate.of(2018,5,8));
-		Laptop laptop2 = new Laptop(null,"DELL","SKL5555", LocalDate.of(2016,10,20));
-		Laptop laptop3 = new Laptop(null,"DELL","SKL5555", LocalDate.of(2016,10,20));
+		Laptop laptop1 = new Laptop(null,"DELL","SKL5625", LocalDate.of(2018,5,8),50,300);
+		Laptop laptop2 = new Laptop(null,"DELL","SKL5555", LocalDate.of(2016,10,20),80,500);
+		Laptop laptop3 = new Laptop(null,"DELL","SKL5555", LocalDate.of(2016,10,20),100,100);
 
 
 		// Storage a Laptop
