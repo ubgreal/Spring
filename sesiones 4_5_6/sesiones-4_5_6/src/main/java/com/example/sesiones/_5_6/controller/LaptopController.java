@@ -3,6 +3,7 @@ package com.example.sesiones._5_6.controller;
 import com.example.sesiones._5_6.entities.Laptop;
 import com.example.sesiones._5_6.repository.LaptopRepository;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpHeaders;
